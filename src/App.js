@@ -1,6 +1,5 @@
-//import React, { Component } from 'react';
-//import logo from './logo.svg';
-//import './App.css';
+// author: Ankit Kadali
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -88,7 +87,6 @@ class TreeviewDemo extends React.Component {
             getIcon={this.getIcon}
           />
         </Paper>
-
               </div>
         // <Typography variant="subheading" className={classes.section}>Tree view rendering children directly</Typography>
         // <Paper>
