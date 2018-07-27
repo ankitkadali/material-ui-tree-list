@@ -58,7 +58,7 @@ class TreeView extends React.PureComponent {
   };
 
   handleExpanded(id) {
-    return !!this.state.expanded[id];
+    return !this.state.expanded[id];
   };
 
   handleSelect(node){
